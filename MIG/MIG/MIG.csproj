@@ -78,6 +78,7 @@
     <Compile Include="Interfaces\HomeAutomation\ModuleParameters.cs" />
     <Compile Include="Interfaces\HomeAutomation\Insteon.cs" />
     <Compile Include="MIGServiceConfiguration.cs" />
+    <Compile Include="Interfaces\HomeAutomation\Tellstick.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Gateways\ProtocolAdapters\OSC\" />
@@ -111,6 +112,10 @@
     <ProjectReference Include="..\Support Libraries\TUIOLib\TUIOLib.csproj">
       <Project>{41BAB999-0A6A-48C6-8DA6-B55323BD6B6D}</Project>
       <Name>TUIOLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Support Libraries\TelldusLib\TelldusLib.csproj">
+      <Project>{72AB65FF-38AD-4755-8320-C6457C3B18FE}</Project>
+      <Name>TelldusLib</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

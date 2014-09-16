@@ -1,1 +1,5 @@
 Thumbs.db
+obj/
+bin/
+*.suo
+*.userprefs
